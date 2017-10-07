@@ -13,5 +13,38 @@
 
 <button type="button" onclick='document.getElementById("demo").innerHTML="I am Piash Sarker"'>Click To Get Me</button>
 
+<script > /** Javascript accept both double quote and single  **/  </script>
+
+<p id="demo2">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo2').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+<button type="button" onclick="document.getElementById('demo2').innerHTML='I am Piash Sarker'">Click To Get Me</button>
+
+
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="text">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('text').style.fontSize='35px'">Change Me Large  Size</button>
+<button type="button" onclick="document.getElementById('text').style.fontSize='10px'">Make Me Small Size</button>
+<button type="button" onclick="document.getElementById('text').style.fontSize='20px'">Make Me Medium Size</button>
+
+<p id="hide_text">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('hide_text').style.display='none'">Hide Me</button>
+<button type="button" onclick="document.getElementById('hide_text').style.display='block',document.getElementById('hide_text').innerHTML='You reveal me, Thanks'">Reveal Me</button>
+
+
+
 </body>
 </html>
