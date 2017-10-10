@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Data Type</title>
+</head>
+<body>
+
+
+<p>When adding a number and a string, JavaScript will treat the number as a string.</p>
+
+<p id="demo"></p>
+
+<script>
+    var x = 16 + "Volvo";
+    document.getElementById("demo").innerHTML = x;
+</script>
+
+<p>JavaScript evaluates expressions from left to right. Different sequences can produce different results:</p>
+
+<p id="demo1"></p>
+
+<script>
+    var x = 16 + 4 + "Volvo";
+    document.getElementById("demo1").innerHTML = x;
+</script>
+
+<p id="demo3"></p>
+
+<script>
+    var x = "Volvo" + 16 + 4;
+    document.getElementById("demo3").innerHTML = x;
+</script>
+<h2>JavaScript Strings</h2>
+
+<p>You can use quotes inside a string, as long as they don't match the quotes surrounding the string:</p>
+
+<p id="demo4"></p>
+
+<script>
+    var answer1 = "It's alright";
+    var answer2 = "He is called 'Johnny'";
+    var answer3 = 'He is called "Johnny"';
+
+    document.getElementById("demo4").innerHTML =
+        answer1 + "<br>" +
+        answer2 + "<br>" +
+        answer3;
+</script>
+
+<h2>JavaScript Numbers</h2>
+
+<p>Extra large or extra small numbers can be written with scientific (exponential) notation:</p>
+
+<p id="demo5"></p>
+
+<script>
+    var y = 123e5;
+    var z = 123e-5;
+
+    document.getElementById("demo5").innerHTML =
+        y + "<br>" + z;
+</script>
+
+
+<h2>JavaScript Booleans</h2>
+
+<p>Booleans can have two values: true or false:</p>
+
+<p id="demo6"></p>
+
+<script>
+    var x = 5;
+    var y = 5;
+    var z = 6;
+    document.getElementById("demo6").innerHTML =
+        (x == y) + "<br>" + (x == z);
+</script>
+<h2>JavaScript Arrays</h2>
+
+<p>Array indexes are zero-based, which means the first item is [0].</p>
+
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+
+<script>
+    var cars = ["Saab","Volvo","BMW"];
+
+    document.getElementById("demo7").innerHTML = cars[0];
+    document.getElementById("demo8").innerHTML = cars[1];
+    document.getElementById("demo9").innerHTML = cars[2];
+</script>
+
+<h2>JavaScript Objects</h2>
+
+<p id="demo10"></p>
+
+<script>
+    var person = {
+        firstName : "John",
+        lastName  : "Doe",
+        age       : 50,
+        eyeColor  : "blue"
+    };
+
+    document.getElementById("demo10").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+</script>
+
+<h2>JavaScript typeof</h2>
+<p>The typeof operator returns the type of a variable or an expression.</p>
+
+<p id="demo_typeOf"></p>
+
+<script>
+    document.getElementById("demo_typeOf").innerHTML =
+        typeof 0 + "<br>" +
+        typeof 314 + "<br>" +
+        typeof 3.14 + "<br>" +
+        typeof (3) + "<br>" +
+        typeof (3 + 4);
+</script>
+<h2>JavaScript typeof</h2>
+<p>The typeof operator returns object for both objects, arrays, and null.</p>
+<p>The typeof operator does not return object for functions.</p>
+
+<p id="demo_all_type_of"></p>
+
+<script>
+    document.getElementById("demo_all_type_off").innerHTML =
+        typeof {name:'john', age:34} + "<br>" +
+        typeof [1,2,3,4] + "<br>" +
+        typeof null + "<br>" +
+        typeof function myFunc(){};
+</script>
+
+
+
+
+</body>
+</html>
