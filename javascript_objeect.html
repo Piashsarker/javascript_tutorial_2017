@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Object Example </title>
+</head>
+<body>
+<p>Creating a JavaScript Object.</p>
+
+<p id="demo"></p>
+
+<p>An object method is a function definition, stored as a property value.</p>
+
+<p id="demo_function"></p>
+
+
+<script>
+
+
+    var car = {type:"Fiat", model:"500", color:"white"};
+
+    var person = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function() {
+            return this.firstName + " " + this.lastName;
+        }
+    };
+
+
+    document.getElementById("demo_function").innerHTML = person.fullName();
+    document.getElementById("demo").innerHTML = "Car Name : "+car.type+" Model="+car.model;
+
+</script>
+</body>
+</html>
