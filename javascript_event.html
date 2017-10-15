@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Event Example</title>
+</head>
+<body>
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+
+<button onclick="displayDate()">The date is?</button>
+
+<script>
+    function displayDate() {
+        document.getElementById("demoDate").innerHTML = Date();
+    }
+</script>
+
+<p id="demoDate"></p>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript String Example</title>
+</head>
+<body>
+<p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+    var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo").innerHTML = txt.length;
+    var x = 'It\'s alright';
+    var y = "We are the so-called \"Vikings\" from the north.";
+
+    document.getElementById("demo2").innerHTML = x + "<br>" + y;
+    document.getElementById("demo3").innerHTML = "Hello \
+Dolly!";
+    var a = "John";              // x is a string
+    var b = new String("John");  // y is an object
+
+    document.getElementById("demo4").innerHTML =
+        typeof a + "<br>" + typeof b;
+
+
+</script>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+<p id="index_of_view"></p>
+<p id="last_index_of_view"></p>
+<p id="using_starting_position_view"></p>
+
+<script>
+    var str = "Please locate where 'locate' occurs!";
+    var pos = str.indexOf("locate");
+    var lastPos = str.lastIndexOf("locate");
+    document.getElementById("index_of_view").innerHTML = pos;
+    document.getElementById("last_index_of_view").innerHTML = lastPos ;
+
+
+</script>
+
+</body>
+</html>
