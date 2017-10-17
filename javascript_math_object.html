@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Math Object </title>
+</head>
+<body>
+
+<h2> JavaScript Math Object  </h2>
+
+Value of Math.PI :
+<p id="pi_value_result"></p>
+
+Math.round() on 4.7 & 4.4 :
+<p id="round_result_view"></p>
+<p id="round_result_view1"></p>
+
+Math.pow(8,2) result :
+<p id="pow_result_view"></p>
+
+Math.sqrt(64) result :
+<p id="sqr_result_view"></p>
+
+Math.abs(-4.33) result :
+<p id="abs_result_view"></p>
+
+Math.ceil(4.4) result :
+<p id="ceil_result_view"></p>
+
+Math.floor(4.7) result :
+<p id="floor_result_view"></p>
+
+Math.sin(90 * Math.PI / 180) result :
+<p id="sin_result_view"></p>
+
+Math.cos(0 * Math.PI / 180) result :
+<p id="cos_result_view"></p>
+
+Math.min(0, 150, 30, 20, -8, -200) result :
+<p id="min_result_view"></p>
+
+Math.max(0, 150, 30, 20, -8, -200) result :
+<p id="max_result_view"></p>
+
+
+
+
+
+
+
+
+
+<script>
+
+    var pi = Math.PI ;
+
+    document.getElementById("pi_value_result").innerHTML = pi ;
+    document.getElementById("round_result_view").innerHTML = Math.round(4.7);
+    document.getElementById("round_result_view1").innerHTML = Math.round(4.4);
+    document.getElementById("pow_result_view").innerHTML= Math.pow(8,2);
+    document.getElementById("sqr_result_view").innerHTML = Math.sqrt(64);
+    document.getElementById("abs_result_view").innerHTML = Math.abs(-4.33);
+    document.getElementById("ceil_result_view").innerHTML = Math.ceil(4.4);
+    document.getElementById("floor_result_view").innerHTML = Math.floor(4.7);
+    document.getElementById("sin_result_view").innerHTML = Math.sin(90*Math.PI/180);
+    document.getElementById("cos_result_view").innerHTML = Math.cos(0*Math.PI/180);
+    document.getElementById("min_result_view").innerHTML = Math.min(0, 150, 30, 20, -8, -200);
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

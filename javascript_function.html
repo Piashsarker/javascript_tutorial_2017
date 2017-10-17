@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Functions</title>
+</head>
+<body>
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="multiple_result_view"></p>
+<p id="divide_result_view"></p>
+<p id="sub_result_view"></p>
+<p id="add_result_view"></p>
+
+
+<p>This example calls a function to convert from Fahrenheit to Celsius:</p>
+<p id="celsius_result_view"></p>
+
+<p id="function_defination_view"></p>
+
+
+
+
+<script>
+
+    document.getElementById("multiple_result_view").innerHTML = myFunction(4, 3);
+    document.getElementById('add_result_view').innerHTML= add(10,10);
+    document.getElementById('sub_result_view').innerHTML= sub(20,10);
+    document.getElementById('divide_result_view').innerHTML= divide(100,10);
+    document.getElementById("celsius_result_view").innerHTML = toCelsius(77);
+    document.getElementById("function_defination_view").innerHTML = toCelsius;
+
+
+
+
+
+    function toCelsius(f) {
+        return (5/9) * (f-32);
+    }
+
+
+    function myFunction( p1, p2) {
+        return p1 * p2;
+    }
+
+    function add(number1 , number2) {
+        return number1+number2 ;
+    }
+    function sub(number1 , number2){
+        return number1-number2;
+    }
+
+    function multiple(number1, number2) {
+        return number1*number2;
+    }
+    function divide(number1, number2) {
+        return number1/number2 ;
+    }
+
+
+
+</script>
+</body>
+</html>

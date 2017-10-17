@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript String Example</title>
+</head>
+<body>
+<p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+    var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo").innerHTML = txt.length;
+    var x = 'It\'s alright';
+    var y = "We are the so-called \"Vikings\" from the north.";
+
+    document.getElementById("demo2").innerHTML = x + "<br>" + y;
+    document.getElementById("demo3").innerHTML = "Hello \
+Dolly!";
+    var a = "John";              // x is a string
+    var b = new String("John");  // y is an object
+
+    document.getElementById("demo4").innerHTML =
+        typeof a + "<br>" + typeof b;
+
+
+</script>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+<p id="index_of_view"></p>
+<p id="last_index_of_view"></p>
+<p id="using_starting_position_view"></p>
+<p id="index_of_double_parameter_view"></p>
+Search Position:
+<p id="search_position_view"></p>
+Slice Result :
+<p id="slice_result_view"></p>
+Slice Opposite Using (-10 ,-2 ) index  Result :
+<p id="slice_opposite_result_view"></p>
+Substring Result :
+<p id="sub_string_result_view"></p>
+SubStr Result :
+<p id="sub_str_result_view"></p>
+
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="replaceMicrosoft()">Try it</button>
+
+<p id="replace_view">Please visit Microsoft!</p>
+Replace All Result :
+<p id="replace_all_view"></p>
+Replace Case Sensitive Result :
+<p id="replace_case_sensitive"></p>
+Uppercase Result :
+<p id="upper_case_result_view"></p>
+Lowercase Result :
+<p id="lower_case_result_view"></p>
+Concat Result :
+<p id="concat_result_view"></p>
+charAt() Result :
+<p id="char_at_view"></p>
+charCodeAt() Result :
+<p id="char_code_at_view"></p>
+split() Result :
+<p id="split_array_view"></p>
+
+
+
+<script>
+
+    var str = "Please locate where 'locate' occurs!";
+    var pos = str.indexOf("locate");
+    var lastPos = str.lastIndexOf("locate");
+    var position = str.lastIndexOf("locate",15);
+    var searchPosition = str.search("locate");
+    var sliceResult = str.slice(0,6);
+    var sliceOppositeResult = str.slice(-10, -2);
+    var subStringResult = str.substring(0,6);
+    var subStrResult = str.substr(6,7);
+
+    function replaceMicrosoft() {
+        var str = document.getElementById("replace_view").innerHTML;
+        var txt = str.replace("Microsoft","W3Schools");
+        document.getElementById("replace_view").innerHTML = txt;
+    }
+
+    var demoText = "Google will buy Microsoft or Microsoft will buy Google";
+
+    var replaceAllResult = demoText.replace(/Microsoft/g,"Facebook");
+
+    var replaceCaseSensitiveResult = demoText.replace(/GOOGLE/i,"Facebook");
+    var upperCaseResult = demoText.toUpperCase() ;
+    var lowerCaseResutt = demoText.toLowerCase() ;
+
+    var charAtResult = demoText.charAt(0) ;
+    var charCodeAtResult = demoText.charCodeAt(0);
+
+    var splitText = "Piash-Anjan-Masud-Farid";
+    var splitArray = splitText.split("-");
+
+
+
+
+    document.getElementById("index_of_view").innerHTML = pos;
+    document.getElementById("last_index_of_view").innerHTML = lastPos ;
+    document.getElementById("index_of_double_parameter_view").innerHTML=position;
+    document.getElementById("search_position_view").innerHTML=searchPosition;
+    document.getElementById("slice_result_view").innerHTML= sliceResult;
+    document.getElementById("slice_opposite_result_view").innerHTML=sliceOppositeResult;
+    document.getElementById("sub_string_result_view").innerHTML= subStringResult;
+    document.getElementById("sub_str_result_view").innerHTML=subStrResult ;
+    document.getElementById("replace_all_view").innerHTML=replaceAllResult ;
+    document.getElementById("replace_case_sensitive").innerHTML=replaceCaseSensitiveResult ;
+    document.getElementById("upper_case_result_view").innerHTML = upperCaseResult ;
+    document.getElementById("lower_case_result_view").innerHTML=lowerCaseResutt ;
+    document.getElementById("concat_result_view").innerHTML= str.concat("",demoText);
+    document.getElementById("char_at_view").innerHTML=charAtResult ;
+    document.getElementById("char_code_at_view").innerHTML= charCodeAtResult ;
+    document.getElementById("split_array_view").innerHTML=splitArray[0]+" "+splitArray[1]+" "+splitArray[2]+" "+splitArray[3];
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

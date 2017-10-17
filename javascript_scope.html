@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Scope</title>
+</head>
+<body>
+<p>A GLOBAL variable can be accessed from any script or function.</p>
+
+<p id="demo"></p>
+<p id="local_scope_view"></p>
+
+<script>
+    var carName = "Volvo";
+    myFunction();
+    localScope();
+    localScopeCheck();
+
+    function myFunction() {
+        document.getElementById("demo").innerHTML =
+            "I can display " + carName;
+    }
+
+    function localScope(){
+        var name = "Piash Sarker";
+
+        document.getElementById('local_scope_view').innerHTML="I am local variable can only aceess from this  method " +name ;
+
+    }
+
+    function  localScopeCheck(){
+        document.getElementById('local_scope_view').innerHTML=" I can not access a local variable"+name;
+    }
+
+
+
+</script>
+</body>
+</html>

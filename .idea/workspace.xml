@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5475d1-de44-4bdc-86e5-01c69c3c096b" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external_file_access_example.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_data_type.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_external.js" />
@@ -9,6 +10,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_output.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_syntax.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_variable.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript_string.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript_event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/view_for_javascript_file.html" afterPath="" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +30,13 @@
       <file leaf-file-name="javascript_introduction.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="233">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+=======
+            <state relative-caret-position="816">
+              <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,46 +44,79 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="external_file_access_example.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/external_file_access_example.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+=======
+      <file leaf-file-name="javascript_function.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_function.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="javascript_output.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_output.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+      <file leaf-file-name="javascript_objeect.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_objeect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="javascript_syntax.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_syntax.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+=======
+      <file leaf-file-name="javascript_scope.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_scope.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="javascript_variable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_variable.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+=======
+      <file leaf-file-name="javascript_event.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript_event.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="javascript_data_type.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript_data_type.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,6 +142,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="85" lean-forward="false" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+=======
+      <file leaf-file-name="javascript_string.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript_string.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
               <folding />
             </state>
           </provider>
@@ -119,6 +171,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/javascript_introduction.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/external_fila_access_example.html" />
         <option value="$PROJECT_DIR$/javascript_external.js" />
         <option value="$PROJECT_DIR$/external_file_access_example.html" />
@@ -128,6 +181,15 @@
         <option value="$PROJECT_DIR$/javascript_variable.html" />
         <option value="$PROJECT_DIR$/javascript_data_type.html" />
         <option value="$PROJECT_DIR$/javascript_functions.html" />
+=======
+        <option value="$PROJECT_DIR$/javascript_function.html" />
+        <option value="$PROJECT_DIR$/javascript_objeect.html" />
+        <option value="$PROJECT_DIR$/javascript_scope.html" />
+        <option value="$PROJECT_DIR$/javascript_event.js" />
+        <option value="$PROJECT_DIR$/view_for_javascript_file.html" />
+        <option value="$PROJECT_DIR$/javascript_event.html" />
+        <option value="$PROJECT_DIR$/javascript_string.html" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
       </list>
     </option>
   </component>
@@ -141,11 +203,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1622" />
-    <option name="y" value="67" />
-    <option name="width" value="1309" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -169,8 +231,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="javascript_practice_2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript_practice_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="javascript_tutorial_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript_tutorial_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -211,13 +273,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507357737102</updated>
+<<<<<<< HEAD
       <workItem from="1507357738742" duration="5370000" />
       <workItem from="1507548567602" duration="1212000" />
       <workItem from="1507614537769" duration="9709000" />
+=======
+      <workItem from="1507357738742" duration="3479000" />
+      <workItem from="1507839036936" duration="5277000" />
+      <workItem from="1507915710422" duration="1310000" />
+      <workItem from="1507981406796" duration="1979000" />
+      <workItem from="1508090149965" duration="2138000" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="16291000" />
   </component>
   <component name="ToolWindowManager">
@@ -225,13 +296,26 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25506938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="14183000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29508197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -264,86 +348,238 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_objeect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_objeect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_event.js" />
+    <entry file="file://$PROJECT_DIR$/view_for_javascript_file.html" />
+    <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_external.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="85" lean-forward="false" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_output.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_objeect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/external_file_access_example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_output.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_event.js" />
+    <entry file="file://$PROJECT_DIR$/view_for_javascript_file.html" />
+    <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_syntax.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_objeect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="91" lean-forward="false" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_variable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_data_type.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_event.js" />
+    <entry file="file://$PROJECT_DIR$/view_for_javascript_file.html" />
+    <entry file="file://$PROJECT_DIR$/javascript_event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javascript_functions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/javascript_string.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+>>>>>>> f36d769a931ad216488356a9e3dcb7707f9190fc
           <folding />
         </state>
       </provider>

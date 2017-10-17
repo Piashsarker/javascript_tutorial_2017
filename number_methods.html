@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Method In JavaScript</title>
+</head>
+<body>
+
+toString() Result :
+<p id="to_string_result_view"></p>
+toExponential() Result :
+<p id="to_exponential_result_view"></p>
+<p id="to_exponential_result_view2"></p>
+<p id="to_exponential_result_view3"></p>
+
+toFixed() Result :
+
+<p id="to_fixed_result_view"></p>
+<p id="to_fixed_result_view2"></p>
+<p id="to_fixed_result_view3"></p>
+<p id="to_fixed_result_view4"></p>
+
+toPrecision() Result :
+<p id="to_precision_result_view"></p>
+<p id="to_precision_result_view2"></p>
+<p id="to_precision_result_view3"></p>
+<p id="to_precision_result_view4"></p>
+
+parseInt() Result :
+<p id="parse_int_result_view"></p>
+
+parseFloat() Result :
+<p id="parse_float_result_view"></p>
+
+<script>
+
+    var number = 23333;
+    var numberTwo = 4.2232;
+    var numberThree = 9.656 ;
+
+    document.getElementById("to_string_result_view").innerHTML = number.toString();
+    document.getElementById("to_exponential_result_view").innerHTML = numberTwo.toExponential(2);
+    document.getElementById("to_exponential_result_view2").innerHTML = numberTwo.toExponential(4);
+    document.getElementById("to_exponential_result_view3").innerHTML = numberTwo.toExponential(6);
+    document.getElementById("to_fixed_result_view").innerHTML= numberThree.toFixed(0);
+    document.getElementById("to_fixed_result_view2").innerHTML= numberThree.toFixed(1);
+    document.getElementById("to_fixed_result_view3").innerHTML= numberThree.toFixed(2);
+    document.getElementById("to_fixed_result_view4").innerHTML= numberThree.toFixed(3);
+    document.getElementById("to_precision_result_view2").innerHTML= numberThree.toPrecision(2);
+    document.getElementById("to_precision_result_view3").innerHTML= numberThree.toPrecision(3);
+    document.getElementById("to_precision_result_view4").innerHTML= numberThree.toPrecision(4);
+    document.getElementById("parse_int_result_view").innerHTML = parseInt(numberThree);
+    document.getElementById("parse_float_result_view").innerHTML = parseFloat(number);
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
