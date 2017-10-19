@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Dates Example</title>
+</head>
+<body>
+
+Date() object result :
+<p id="date_function_result"></p>
+
+Date(date string) result :
+<p id="date_string_result"></p>
+
+Date(number) result :
+<p id="date_number_result"></p>
+Date(2012,5,3,11,22,22,9) 7 parameters:
+<p id="date_parameters_result"></p>
+Date(2017,10,11) 3 parameter :
+<p id="date_three_parameter_result"></p>
+Date(2017,10,11) 3 parameter with .toUtcString() method :
+<p id="date_three_parameter_result1"></p>
+
+ISO Date :
+<p id="iso_date_result"></p>
+
+ISO Dates( Year and Month):
+<p id="iso_date_year_month_result"></p>
+ISO Dates (Year) :
+<p id="iso_date_year_result"></p>
+
+ISO Dates (Dates-Time) :
+<p id="iso_date_time"></p>
+ISO Dates (Dates-Time) +HH:MM or -HH:MM:
+<p id="iso_date_time_convert"></p>
+
+getTime() result :
+<p id="get_time_result"></p>
+
+getFullYear() result :
+<p  id="get_full_year_result"></p>
+getDay() result :
+<p id="get_day_result"></p>
+
+
+
+
+<script>
+
+    var d = new Date("October 13, 2014 11:13:00");
+    var d1 = new Date(86400000);
+    var d2 = new Date(2012,5,3,11,22,22,9);
+    var d3 = new Date(2017,10,11);
+
+    var date = new Date();
+    var days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+    document.getElementById("date_function_result").innerHTML = Date();
+    document.getElementById("date_string_result").innerHTML = d;
+    document.getElementById("date_number_result").innerHTML = d1;
+    document.getElementById("date_parameters_result").innerHTML = d2;
+    document.getElementById("date_three_parameter_result").innerHTML = d3 ;
+    document.getElementById("date_three_parameter_result1").innerHTML = d3.toUTCString();
+    document.getElementById("iso_date_result").innerHTML = new Date("2017-10-19");
+    document.getElementById("iso_date_year_month_result").innerHTML = new Date("2017-10");
+    document.getElementById("iso_date_year_result").innerHTML = new Date("2017")
+    document.getElementById("iso_date_time").innerHTML=new Date("2017-10-19T12:15:33Z");
+    document.getElementById("iso_date_time_convert").innerHTML = new Date("2017-10-19T12:15:33-06:30")
+    document.getElementById("get_time_result").innerHTML = date.getTime();
+    document.getElementById("get_full_year_result").innerHTML = date.getFullYear();
+    document.getElementById("get_day_result").innerHTML= days[date.getDay()];
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

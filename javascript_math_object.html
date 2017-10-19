@@ -42,6 +42,14 @@ Math.min(0, 150, 30, 20, -8, -200) result :
 Math.max(0, 150, 30, 20, -8, -200) result :
 <p id="max_result_view"></p>
 
+Math.random() result:
+<p id="math_random_result"></p>
+
+getRandomInteger(10,15):
+<p id="math_random_function_result"></p>
+
+
+
 
 
 
@@ -54,6 +62,11 @@ Math.max(0, 150, 30, 20, -8, -200) result :
 
     var pi = Math.PI ;
 
+    function getRandomInteger(min, max) {
+        return Math.floor(Math.random()*(max-min))+min;
+    }
+
+
     document.getElementById("pi_value_result").innerHTML = pi ;
     document.getElementById("round_result_view").innerHTML = Math.round(4.7);
     document.getElementById("round_result_view1").innerHTML = Math.round(4.4);
@@ -65,6 +78,9 @@ Math.max(0, 150, 30, 20, -8, -200) result :
     document.getElementById("sin_result_view").innerHTML = Math.sin(90*Math.PI/180);
     document.getElementById("cos_result_view").innerHTML = Math.cos(0*Math.PI/180);
     document.getElementById("min_result_view").innerHTML = Math.min(0, 150, 30, 20, -8, -200);
+    document.getElementById("max_result_view").innerHTML = Math.max(0, 150, 30, 20, -8, -200);
+    document.getElementById("math_random_result").innerHTML = Math.floor(Math.random()*10);
+    document.getElementById("math_random_function_result").innerHTML =getRandomInteger(10,15);
 
 
 
