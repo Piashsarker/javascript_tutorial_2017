@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Array Example</title>
+</head>
+<body>
+<h2>JavaScript Arrays</h2>
+
+<p>JavaScript array elements are accesses using numeric indexes (starting from 0).</p>
+
+<p id="car1"></p>
+
+Access the full array :
+<p id="full_array_view"></p>
+Array length  , Car Array Size :
+<p id="array_length_view">
+</p>
+Array Sort :
+<p id="array_sort_view"></p>
+
+Looping an Array :
+<p id="looping_array_view"></p>
+
+Adding new element using push() ;
+<p id="array_element_adding_view"></p>
+
+Adding new element using length :
+<p id="array_new_element_using_length_view"></p>
+
+Array Convert To String :
+<p id="array_convert_to_string_view"></p>
+
+Array join() Method :
+<p id="array_join_view">
+</p>
+
+Array before pop() :
+<p id="array_before_pop">
+
+</p>
+
+Array pop result :
+<p id="array_pop_view"></p>
+Array after pop :
+<p id="array_after_pop"></p>
+shift() method result :
+<p id="shift_method_view"></p>
+Array after shift  :
+<p id="array_after_shift"></p>
+
+unshift() method result :
+<p id="unshift_method_view">
+</p>
+Array after unshift() method :
+<p id="array_after_unshift"></p>
+
+
+<script>
+    var cars = ["Saab", "Volvo", "BMW"];
+    var fruits, text, fLen, i;
+    fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fLen = fruits.length;
+    text = "<ul>";
+    for (i = 0; i < fLen; i++) {
+        text += "<li>" + fruits[i] + "</li>";
+    }
+    text += "</ul>";
+
+
+    cars.push("Toyota");
+    cars[cars.length]="Ferrari";
+
+
+    document.getElementById("car1").innerHTML = cars[0];
+    document.getElementById("full_array_view").innerHTML = cars ;
+    document.getElementById("array_length_view").innerHTML = cars.length ;
+    document.getElementById("array_sort_view").innerHTML  =cars.sort();
+    document.getElementById("looping_array_view").innerHTML =text;
+    document.getElementById("array_element_adding_view").innerHTML  =cars ;
+    document.getElementById("array_new_element_using_length_view").innerHTML = cars;
+    document.getElementById("array_convert_to_string_view").innerHTML = cars.toString();
+    document.getElementById("array_join_view").innerHTML = cars.join("*");
+    document.getElementById("array_before_pop").innerHTML = cars ;
+    document.getElementById("array_pop_view").innerHTML = cars.pop("Volvo");
+    document.getElementById("array_after_pop").innerHTML = cars ;
+    document.getElementById("shift_method_view").innerHTML = cars.shift();
+    document.getElementById("array_after_shift").innerHTML = cars ;
+    document.getElementById("unshift_method_view").innerHTML = cars.unshift("Lambo");
+    document.getElementById("array_after_unshift").innerHTML = cars ;
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
