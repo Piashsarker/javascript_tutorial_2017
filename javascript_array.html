@@ -55,11 +55,41 @@ unshift() method result :
 Array after unshift() method :
 <p id="array_after_unshift"></p>
 
+Splicing an Array  ( Add Example) :
+<p id="array_splicing_result"></p>
+
+Array after splice():
+<p id="array_after_splice"></p>
+
+Splicing an Array (Removing Example) :
+<p id="array_splice_remove_example"></p>
+
+Array after splice():
+<p id="array_after_splice1"></p>
+
+Array Merging example :
+<p id="array_merge_result"></p>
+
+Reverse an Array :
+<p id="array_reverse_result"></p>
+
+Sort A Numeric Array :
+<p id="numeric_array_sort"></p>
+Sort A Numeric Array (Descending) :
+<p id="numeric_array_sort_descending"></p>
+
+Sorting A Array in Random Order :
+<p id="numeric_array_sort_random"></p>
+
+
+
 
 <script>
     var cars = ["Saab", "Volvo", "BMW"];
     var fruits, text, fLen, i;
     fruits = ["Banana", "Orange", "Apple", "Mango"];
+    var scores = [10 , 2, 23, 22, 3, 5 , 15];
+
     fLen = fruits.length;
     text = "<ul>";
     for (i = 0; i < fLen; i++) {
@@ -70,6 +100,10 @@ Array after unshift() method :
 
     cars.push("Toyota");
     cars[cars.length]="Ferrari";
+    var fruitAndCar = fruits.concat(cars);
+
+
+
 
 
     document.getElementById("car1").innerHTML = cars[0];
@@ -88,6 +122,22 @@ Array after unshift() method :
     document.getElementById("array_after_shift").innerHTML = cars ;
     document.getElementById("unshift_method_view").innerHTML = cars.unshift("Lambo");
     document.getElementById("array_after_unshift").innerHTML = cars ;
+    document.getElementById("array_splicing_result").innerHTML = cars.splice(2,0,"TATA","Hundai");
+    document.getElementById("array_after_splice").innerHTML = cars ;
+    document.getElementById("array_splice_remove_example").innerHTML = cars.splice(0,1);
+    document.getElementById("array_after_splice1").innerHTML = cars ;
+    document.getElementById("array_merge_result").innerHTML = fruitAndCar;
+    document.getElementById("array_reverse_result").innerHTML = cars.reverse();
+    document.getElementById("numeric_array_sort").innerHTML =   scores.sort(function (a, b) {
+        return a -b ;
+    });
+    document.getElementById("numeric_array_sort_descending").innerHTML = scores.sort(function (a, b) {
+        return b-a ;
+    })
+
+    document.getElementById("numeric_array_sort_random").innerHTML = scores.sort(function (a, b) {
+        return 0.5 - Math.random();
+    });
 
 
 
