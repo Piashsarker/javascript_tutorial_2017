@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript DOM Events </title>
+</head>
+<body onload="checkCookies()">
+
+
+ <h1 onclick="this.innerHTML='oops!'">Click on this text.</h1>
+ <h1 onclick="changeText(this)">Click on this text!</h1>
+
+ <p>Click the button to display the date.</p>
+
+ <button onclick="displayDate()">The time is?</button>
+
+ <p id="demo"></p>
+
+
+ <div onmouseover="mOver(this)" onmouseout="mOut(this)"
+      style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+     Mouse Over Me</div>
+
+ <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+      style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+     Click Me</div>
+
+ <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+
+ <button id="myBtn">Try it</button>
+
+ <button id="myBtn1">Try it</button>
+
+ <script>
+
+     document.getElementById("myBtn").addEventListener("click", function(){
+         alert("Hello World!");
+     });
+
+     var x = document.getElementById("myBtn1");
+     x.addEventListener("click", myFunction);
+     x.addEventListener("click", someOtherFunction);
+
+     function myFunction() {
+         alert ("Hello World!");
+     }
+
+     function someOtherFunction() {
+         alert ("This function was also executed!");
+     }
+
+     function changeText(id) {
+         id.innerHTML = "You are a good boy...";
+     }
+
+     function displayDate() {
+         document.getElementById("demo").innerHTML = Date();
+     }
+
+     function checkCookies () {
+         var text = "";
+         if (navigator.cookieEnabled == true) {
+             text = "Cookies are enabled.";
+         } else {
+             text = "Cookies are not enabled.";
+         }
+         document.getElementById("demo").innerHTML = text;
+     }
+
+     function mOver(obj) {
+         obj.innerHTML = "Thank You"
+     }
+
+     function mOut(obj) {
+         obj.innerHTML = "Mouse Over Me"
+     }
+     function mDown(obj) {
+         obj.style.backgroundColor = "#1ec5e5";
+         obj.innerHTML = "Release Me";
+     }
+
+     function mUp(obj) {
+         obj.style.backgroundColor="#D94A38";
+         obj.innerHTML="Thank You";
+     }
+
+ </script>
+</body>
+</html>

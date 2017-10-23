@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript HTML DOM</title>
+</head>
+<body>
+
+<p>Hello World!</p>
+<div id="main">
+
+    <p>The DOM is very useful.</p>
+    <p>This example demonstrates the <b>getElementsByTagName</b> method</p>
+</div>
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<p class="intro">JavaScript is a cool programming language. </p>
+<p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+
+<p id="class_intro_result"></p>
+
+<img id="myImage" src="img/pic_bulbon.gif">
+
+<p id="p1">Hello World!</p>
+<p id="p2">Hello World!</p>
+
+<p>The paragraph above was changed by a script.</p>
+
+<h1 id="id1">My Heading 1</h1>
+
+<button id="btnColorChange" type="button" onclick=colorchange()>Click Me!</button>
+
+
+
+
+
+<script>
+
+    var x = document.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = 'The first paragraph (index 0) is: ' + x[0].innerHTML;
+
+    var y = document.getElementById("main");
+    var z = y.getElementsByTagName("p");
+
+    document.getElementById("demo1").innerHTML =
+        'The first paragraph (index 0) inside "main" is: ' + z[0].innerHTML;
+
+    var elementByClass = document.getElementsByClassName("intro");
+    document.getElementById("class_intro_result").innerHTML =
+        'The first paragraph (index 0) with class="intro": ' + elementByClass[0].innerHTML;
+
+    document.getElementById("myImage").src = "img/pic_bulboff.gif";
+    document.getElementById("p2").style.color = "blue";
+    document.getElementById("p2").style.fontFamily = "Arial";
+    document.getElementById("p2").style.fontSize = "larger";
+
+    function colorchange() {
+        document.getElementById('id1').style.color = 'red';
+    }
+
+
+</script>
+
+
+</body>
+</html>

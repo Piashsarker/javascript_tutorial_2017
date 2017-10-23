@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Form Validation</title>
+</head>
+<body>
+
+<script>
+    function myFunction() {
+        var x, text;
+
+        // Get the value of the input field with id="numb"
+        x = document.getElementById("numb").value;
+
+        // If x is Not a Number or less than one or greater than 10
+        if (isNaN(x) || x < 1 || x > 10) {
+            text = "Input not valid";
+        } else {
+            text = "Input OK";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+
+
+    function requiredValidation() {
+        var inpObj = document.getElementById("id1");
+        if (inpObj.checkValidity() == false) {
+            document.getElementById("demo1").innerHTML = inpObj.validationMessage;
+        } else {
+            document.getElementById("demo1").innerHTML = "Input OK";
+        }
+    }
+
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+
+
+</script>
+
+<form name="myForm" action=""
+      onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+</form>
+
+
+<h2>JavaScript Can Validate Input</h2>
+
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+
+
+<p>Enter a number and click OK:</p>
+
+<input id="id1" type="number" min="100" max="300" required>
+<button onclick="requiredValidation()">OK</button>
+
+<p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+
+<p id="demo1"></p>
+
+<script>
+
+</script>
+
+
+</body>
+</html>

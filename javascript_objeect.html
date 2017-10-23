@@ -13,13 +13,15 @@
 
 <p id="demo_function"></p>
 
+<p id="constructor_result"></p>
+
 
 <script>
 
 
     var car = {type:"Fiat", model:"500", color:"white"};
 
-    var person = {
+    var person1 = {
         firstName: "John",
         lastName : "Doe",
         id       : 5566,
@@ -29,9 +31,22 @@
     };
 
 
-    document.getElementById("demo_function").innerHTML = person.fullName();
+
+    document.getElementById("demo_function").innerHTML = person1.fullName();
     document.getElementById("demo").innerHTML = "Car Name : "+car.type+" Model="+car.model;
 
+    function person(first, last, age, eye) {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+        this.eyeColor = eye;
+    }
+
+    var myFather = new person("John", "Doe", 50, "blue");
+    var myMother = new person("Sally", "Rally", 48, "green");
+
+    document.getElementById("demo").innerHTML =
+        "My father is " + myFather.age + ". My mother is " + myMother.age;
 </script>
 </body>
 </html>
